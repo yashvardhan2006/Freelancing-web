@@ -1,0 +1,79 @@
+
+@import
+url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+.container{
+    width:100% ;
+}
+
+.course{
+    background:#fff;
+    box-shadow:0px 10px 10px rgba(0,0,0,.2);
+    border-radius: 20px;
+    display:flex;
+    
+   
+    height:fit-content;
+    margin:15px;
+
+}
+.course h6 {
+    opacity:.6;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+
+}
+.course h2{
+    letter-spacing: 1px;
+    margin:10px 0;
+}
+.preview {
+background: #e40046;
+color:white;
+border-radius:20px 0px 0px 20px;
+padding:30px;
+width:400px;
+
+
+}
+.preview a{
+    color:#fff;
+    font-size:14px;
+    opacity: .6;
+    margin-top:30px;
+    text-decoration: none;
+
+}
+.btn{
+    width:110px;
+    padding:6px;
+    color:white;
+    background-color: #e40046;
+    font-weight: 700;
+    font-size:15px;
+    border-radius: 15px;
+    border:none;
+    transform: translateY(180%);
+}
+.btn:hover{
+    background-color:rgb(235, 5, 51);
+    color:aqua
+}
+.preview a:hover{
+    cursor:pointer;
+    color:white;
+    opacity: 1;
+    text-decoration: underline;
+
+}
+.details{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.p-trunc ul{
+    line-height: 20px;
+    list-style: none;
+}
+
